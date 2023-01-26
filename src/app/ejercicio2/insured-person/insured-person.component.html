@@ -1,0 +1,20 @@
+<div class="container">
+    <div class="row mt-4">
+        <div class="col-md-6 col-sm-12">
+            <ul>
+                <li>{{insured | json}}</li>
+            </ul>
+        </div>
+        <div class="col-md-6 col-sm-12">
+            <ul>
+                <li>{{insuredBasicData | json}}</li>
+            </ul>
+        </div>
+        <div class="col-md-12 col-sm-12">
+            <button class="btn btn-secondary float-end me-5"
+                    (click)="change()">
+            Cambiar Datos
+            </button>
+        </div>
+    </div>
+</div>
